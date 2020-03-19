@@ -14,7 +14,7 @@ resource "aws_instance" "california" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "Web2"
   }
 }
 
