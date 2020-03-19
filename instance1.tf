@@ -38,3 +38,12 @@ resource "aws_instance" "virginia" {
   }
 }
 
+resource "aws_instance" "virginia" {
+    provider    = "aws.virginia"
+  ami           = "ami-04ac550b78324f651"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "Web4"
+  }
+}
