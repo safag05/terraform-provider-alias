@@ -34,6 +34,6 @@ resource "aws_instance" "virginia" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "Web4"
   }
 }
