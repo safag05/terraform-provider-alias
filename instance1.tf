@@ -24,7 +24,7 @@ resource "aws_instance" "ohio" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "Web3"
   }
 }
 
