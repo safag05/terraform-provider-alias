@@ -23,3 +23,4 @@ provider "aws" {
 }
 
 provider
+provider file
