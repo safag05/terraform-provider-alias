@@ -22,4 +22,4 @@ provider "aws" {
     alias  = "california"
 }
 
-provider
+
