@@ -15,3 +15,4 @@ data "aws_ami" "ubuntu" {
   owners = ["099720109477"] # Canonical
 }
 data source
+safag in the house
