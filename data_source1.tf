@@ -16,4 +16,3 @@ data "aws_ami" "ubuntu" {
 }
 safag
 safag
-safag
